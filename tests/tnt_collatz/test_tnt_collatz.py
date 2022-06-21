@@ -8,17 +8,14 @@ sys.path.insert(0,'.')
 import tnt_collatz
 
 
-def test_hello_noargs():
-    """Test for tnt_collatz.hello()."""
-    s = tnt_collatz.hello()
-    assert s == "Hello world"
+def test_stoppingTime():
+    """Test for tnt_collatz.stoppingTime()."""
+    n = list(range(1,11))
+    n_expected = [ 0, 1, 7, 2, 5, 8, 16, 3, 19, 6 ]
+    for i in range(10):
+        assert tnt_collatz.stoppingTime(n[i]) == n_expected[i]
 
-
-def test_hello_me():
-    """Test for tnt_collatz.hello('me')."""
-    s = tnt_collatz.hello('me')
-    assert s == "Hello me"
-
+    
 
 # ==============================================================================
 # The code below is for debugging a particular test in eclipse/pydev.
@@ -27,7 +24,7 @@ def test_hello_me():
 # that the source directory is on the path
 # ==============================================================================
 if __name__ == "__main__":
-    the_test_you_want_to_debug = test_hello_noargs
+    the_test_you_want_to_debug = test_stoppingTime
 
     print("__main__ running", the_test_you_want_to_debug)
     the_test_you_want_to_debug()
