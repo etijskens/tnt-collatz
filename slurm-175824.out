@@ -1,0 +1,80 @@
+
+Currently Loaded Modules:
+  1) leibniz/supported
+  2) git/2.36.1
+  3) gh/2.11.3
+  4) buildtools/2020a
+  5) GCCcore/9.3.0
+  6) binutils/2.34-GCCcore-9.3.0
+  7) intel/2020a
+  8) baselibs/2020a-GCCcore-9.3.0
+  9) Tcl/8.6.10-intel-2020a
+ 10) X11/2020a-GCCcore-9.3.0
+ 11) Tk/8.6.10-intel-2020a
+ 12) SQLite/3.31.1-intel-2020a
+ 13) HDF5/1.10.6-intel-2020a-MPI
+ 14) METIS/5.1.0-intel-2020a-i32-fp64
+ 15) SuiteSparse/5.7.1-intel-2020a-METIS-5.1.0
+ 16) Python/3.8.3-intel-2020a
+range: [200010, 300010[
+stoppingTime          : 3.864012 s
+build stoppingTimeJit : 15.610356 s
+stoppingTimeJit       : 0.527103 s
+stoppingTimeSimd      : 0.146955 s
+7.330658334329343
+3.5868327038889456
+26.293845054608553
+stoppingTime          : 3.864083 s
+stoppingTimeJit       : 0.267093 s
+stoppingTimeSimd      : 0.017096 s
+14.467181843028456
+15.623128217126816
+226.02263687412258
+stoppingTime          : 3.864529 s
+stoppingTimeJit       : 0.266952 s
+stoppingTimeSimd      : 0.017095 s
+14.476493901525368
+15.615794091839721
+226.06194793799358
+stoppingTime          : 3.864053 s
+stoppingTimeJit       : 0.266976 s
+stoppingTimeSimd      : 0.017088 s
+14.473409594869953
+15.623595505617978
+226.1266970973783
+stoppingTime          : 3.868232 s
+stoppingTimeJit       : 0.266902 s
+stoppingTimeSimd      : 0.017091 s
+14.493079857026176
+15.616523316365338
+226.33151951319408
+stoppingTime          : 3.865697 s
+stoppingTimeJit       : 0.266941 s
+stoppingTimeSimd      : 0.017086 s
+14.481465941912258
+15.623375863279877
+226.24938546178157
+stoppingTime          : 3.866027 s
+stoppingTimeJit       : 0.266962 s
+stoppingTimeSimd      : 0.017087 s
+14.481562919067134
+15.623690524960493
+226.25545736524842
+stoppingTime          : 3.86156 s
+stoppingTimeJit       : 0.266942 s
+stoppingTimeSimd      : 0.017085 s
+14.465913943852971
+15.62434884401522
+226.0204858062628
+stoppingTime          : 3.8643 s
+stoppingTimeJit       : 0.266819 s
+stoppingTimeSimd      : 0.0171 s
+14.482851670982953
+15.603450292397659
+225.98245614035088
+stoppingTime          : 3.864144 s
+stoppingTimeJit       : 0.266854 s
+stoppingTimeSimd      : 0.017089 s
+14.480367541801884
+15.615542161624436
+226.11878986482532

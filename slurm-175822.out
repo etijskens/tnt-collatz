@@ -1,0 +1,26 @@
+
+Currently Loaded Modules:
+  1) leibniz/supported
+  2) git/2.36.1
+  3) gh/2.11.3
+  4) buildtools/2020a
+  5) GCCcore/9.3.0
+  6) binutils/2.34-GCCcore-9.3.0
+  7) intel/2020a
+  8) baselibs/2020a-GCCcore-9.3.0
+  9) Tcl/8.6.10-intel-2020a
+ 10) X11/2020a-GCCcore-9.3.0
+ 11) Tk/8.6.10-intel-2020a
+ 12) SQLite/3.31.1-intel-2020a
+ 13) HDF5/1.10.6-intel-2020a-MPI
+ 14) METIS/5.1.0-intel-2020a-i32-fp64
+ 15) SuiteSparse/5.7.1-intel-2020a-METIS-5.1.0
+ 16) Python/3.8.3-intel-2020a
+range: [200010, 300010[
+stoppingTime          : 3.879738 s
+build stoppingTimeJit : 17.968677 s
+stoppingTimeJit       : 1.564917 s
+stoppingTimeSimd      : 0.608416 s
+2.4791972992816875
+2.5721167753642247
+6.376784962920108
