@@ -1,4 +1,3 @@
-from re import I
 from et_stopwatch import Stopwatch
 import numpy as np
 from tnt_collatz import stoppingTime, simd
