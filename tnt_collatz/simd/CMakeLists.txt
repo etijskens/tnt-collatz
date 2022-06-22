@@ -44,13 +44,18 @@
 ####################################################################################################
 ######################################################################### Customization section ####
 # set compiler:
-# set(CMAKE_CXX_COMPILER path/to/executable)
+If (DEFINED ENV{VSC_HOME})
+    set(CMAKE_CXX_COMPILER icpc)
+    # apparently it uses gcc otherwise...
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -xAVX -qopt-report=5")
+endif()
 
 # Set build type:
 # set(CMAKE_BUILD_TYPE Debug | MinSizeRel | Release | RelWithHDebInfo)
 
 # Add compiler options:
 # set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} <additional C++ compiler options>")
+
 # Request a specific C++ standard:
 # set(CMAKE_CXX_STANDARD 17)
 
