@@ -1,3 +1,7 @@
+import sys
+# sys.path.insert(0,'.')
+print(sys.version)
+
 from et_stopwatch import Stopwatch
 import numpy as np
 from tnt_collatz import stoppingTime, simd

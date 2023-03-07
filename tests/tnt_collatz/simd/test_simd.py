@@ -11,18 +11,21 @@ sys.path.insert(0,'.')
 import numpy as np
 
 import tnt_collatz.simd
+import tnt_collatz 
 
 
-def test_stoppingTime():
-    """Test for tnt_collatz.stoppingTime()."""
-    n  = np.array(list(range(1,11)))
+def test_simd_stoppingTime():
+    """Test for tnt_collatz.simd.stoppingTime()."""
+    n = np.random.randint(2,1000,20) # 20 random integers in the range [2,1000[
+    st_expected = []
+    for i in n:
+        st_expected.append(tnt_collatz.stoppingTime(i)) # we already tested tnt_collatz.stoppingTime
+    st_expected = np.array(st_expected)
     st = np.zeros_like(n)
-    n_expected = np.array([ 3, 1, 7, 2, 5, 8, 16, 3, 19, 6 ])
-    #   (see the caveat in simd.cpp for the initial 3 in n_expected)
     tnt_collatz.simd.stoppingTime(n, st)
     print(f'n ={n}')
     print(f'st={st}')
-    assert np.all( st == n_expected )
+    assert np.all( st == st_expected )
 
 
 #===============================================================================
