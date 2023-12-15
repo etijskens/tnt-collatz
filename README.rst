@@ -2,6 +2,5 @@
 tnt-collatz
 ********
 
-<Enter a one-sentence description of this project here.>
+This project contains the code used for the HPC Tips&Tricks on VSCode of the University of Antwerp.
 
-* Documentation: https://tnt_collatz.readthedocs.io
